@@ -23,7 +23,13 @@
         <span>BotDev Studio</span>
       </a>
 
-      <nav class="nav" aria-label="Основная навигация">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="main-nav" aria-label="Основная навигация">
         <a href="#services">Услуги</a>
         <a href="#cases">Кейсы</a>
         <a href="#process">Процесс</a>
@@ -223,6 +229,7 @@
             </ul>
           </article>
           <article class="price-card featured">
+            <span class="popular-badge">Популярный</span>
             <h3>Business</h3>
             <p>Бот с интеграциями, оплатой и аналитикой.</p>
             <strong>от $650</strong>
@@ -263,6 +270,10 @@
       <a href="mailto:hello@botdev.studio">hello@botdev.studio</a>
       <span>Автоматизация бизнеса через Telegram-ботов</span>
     </footer>
+
+    <a class="mobile-sticky-cta" href="https://t.me/" target="_blank" rel="noreferrer">
+      Написать в Telegram
+    </a>
 
     <script src="./script.js"></script>
   </body>
